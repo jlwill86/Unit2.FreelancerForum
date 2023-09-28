@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    
+}
+
+.form-Section {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.free-div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    row-gap: 20px;
+    /* gap: 50px; */
+    /* border: 2px solid black; */
+}
+
+.ul-div {
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+    font-weight: bold;
+}
+
+ul {
+    font-weight: 100;
+}
+
+#free-Names {
+    list-style: none;
+}
+
+#occupations {
+    list-style: none;
+}
+
+#start-Prices {
+    list-style: none;
+}
